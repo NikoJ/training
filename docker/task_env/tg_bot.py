@@ -11,7 +11,6 @@ logging.basicConfig(
 )
 
 APP_TOKEN = os.environ.get("APP_TOKEN")
-
 PATH_TO_CSV = "todo_result/todo_list.csv"
 
 bot = Bot(token=APP_TOKEN)
